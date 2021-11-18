@@ -67,3 +67,30 @@ color: white!important;
     background-color: #474d5d;
 
 }
+.home__button{
+    width:25%;
+    
+}
+.button{
+background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--first-color-dark);
+}
+.button__lihgt{
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
+}
+.button__lihgt:hover{
+    color:var(--first-color-lighten);
+}
